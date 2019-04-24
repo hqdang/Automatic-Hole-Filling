@@ -11,19 +11,19 @@ Original Image
 ![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint.jpg)
 
 Binary Image
-![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint_bw.jpg)
+![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint_bw.png)
 
 Mask obtain with SE = [3,3]
-![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/mask_boundary_3.jpg)
+![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/mask_boundary_3.png)
 
 Mask obtain with SE = [7,7]
-![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/mask_boundary_7.jpg)
+![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/mask_boundary_7.png)
 
 Output image with 300 iterations of morphological reconstruction
-![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint300.jpg)
+![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint300.png)
 
 Output image with 1000 iterations of morphological reconstruction
-![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint1000.jpg)
+![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint1000.png)
 
 # Results
 We can see the difference between the mask using SE kernel [3,3] and [7,7]. For the kernel [7,7] the hole inside each objects within the picture is filled with 0. This means that the algorithm can fill the inside of these objects much better than using SE kernel [3,3]. Therefore we chose to go with SE kernel [7,7]
