@@ -1,11 +1,11 @@
 # Automatic-Hole-Filling
-Automatic Hole Filling on Binary Image using Geodesic Dilation
-Step 1: Form a marker image F with
-        F(x,y) = 1 - I(x,y) if (x,y) is on the border of the image.
-               = 0 otherwise
-Step 2: Form a mask as G = complement of (I(x,y))
-Step 3: Peform the morphological reconstruction using geodesic dilation with G as the mask and F as the marker image to get R
-Step 4: Obtain the complement of R as the output
+Automatic Hole Filling on Binary Image using Geodesic Dilation<br/>
+Step 1: Form a marker image F with<br/>
+        F(x,y) = 1 - I(x,y) if (x,y) is on the border of the image.<br/>
+               = 0 otherwise<br/>
+Step 2: Form a mask as G = complement of (I(x,y))<br/>
+Step 3: Peform the morphological reconstruction using geodesic dilation with G as the mask and F as the marker image to get R<br/>
+Step 4: Obtain the complement of R as the output<br/>
 
 Original Image
 ![alt text](https://github.com/hqdang/Automatic-Hole-Filling/blob/master/fingerprint.jpg)
